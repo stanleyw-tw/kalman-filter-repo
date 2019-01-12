@@ -55,3 +55,23 @@ dkms.conf
 
 # Ignore Mac specific files
 .DS_Store
+
+#Python
+build/*
+*.com
+dist/*
+*.egg-info/*
+*.class
+*.dll
+*.exe
+*.o
+*.pdf
+*.pyc
+*.so
+
+# PyCharm files #
+.idea/*
+
+# pytest files #
+.cache/*
+
